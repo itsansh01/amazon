@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+      function getprice(){
+        var pp=document.getElementById("pp").innerHTML;
+        var qty=document.getElementById("qty").value;
+        var tp=pp*qty;
+        var tp=document.getElementById("tp").innerHTML=tp;
+      }
+    </script>
+</head>
+<body>
+    <!-- container start -->
+    <div class="container-fluid">
+        <!-- head start -->
+        <div class="row head">
+            <div class="col-sm-12 mx-auto">
+                <div class="row">
+                    <div class="col-sm-12  mt-2 d-flex ">
+                        <img src="images/logo.png" height="60" class="" alt="">
+                        <p class="mx-4">
+                            <small class="text-secondary">Hello</small>
+                            <br>
+                            <span class="text-light fw-bold">Select Your address</span>
+                        </p>
+                        <div class="search">
+                            <select name="" id="select">
+                                <option value="">All</option>
+                            </select>
+                            <input type="text" name="" id="searchinput" class="" placeholder="Search Amazon.in">
+                            <span><i class="fa-solid iconsearch fa-magnifying-glass"></i></span>
+                        </div>
+                        <p class="mx-4">
+                            <img src="images/flag.png" height="20" width="" alt="" class="mt-3 ms-3">
+                            <select name="" id="EN" class="">
+                                <option value="">EN</option>
+                                <option value="">HN</option>
+                            </select>
+                        </p>
+                        <p class="mx-3">
+                            <small class="text-secondary">&nbsp;Hello, Sign in</small>
+                            <br>
+                            <select name="" id="EN">
+                                <option value="">Address & Lists</option>
+                            </select>
+                        </p>
+                        <p class="mx-3">
+                            <small class="text-secondary">&nbsp;Return</small>
+                            <br>
+                            <select name="" id="EN">
+                                <option value="">&Orders</option>
+                            </select>
+                        </p>
+                        <p class="mx-2 my-3">
+                          <i class="fa-solid fa-cart-shopping fs-3  text-light"></i> <span class="text-light">Cart</span>
+                        </p>
+                    </div>
+                    
+                </div>  
+            </div>
+        </div>
+        <!-- head end -->
+
+        <!-- navbar start -->
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg bg-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Navbar</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+                          <li class="nav-item ">
+                            <a class="nav-link text-light active" aria-current="page" href="#">Amazon miniTV</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Sell</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Best Sellers</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Mobiles</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Today's Deals</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Customer Service</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Electronics</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">New Releases</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Prime</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Home & Kitchen</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Amazon Pay</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Computers</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Fashion</a>
+                          </li>
+                          <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li> -->
+                          <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                          </li> -->
+                        </ul>
+                        <!-- <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- navbar end -->
+
+        <!-- main start -->
+        <div class="row" style="background-color: aquamarine;">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="card my-3 p-4 rounded-0">
+                            <div class="row">
+                                <h2>Shopping Cart</h2>
+                                <p class="text-end me-2 text-secondary">Price</p>
+                                <hr>
+                                <div class="col-sm-3">
+                                    <img src="images/watch.jpg" alt="">
+                                </div>
+                                <div class="col-sm-7">
+                                    <p class="">
+                                        <h4>
+                                            Fire-Boltt Ninja Call Pro 1.83" Smart Watch with 
+                                            <br> Bluetooth Calling, AI Voice Assitance, 100 Sports
+                                            <br> Modes IP67 240*2
+                                        </h4>
+                                    </p>
+                                    <p class="">
+                                        <span class="text-danger">In Stock</span>
+                                        <br>
+                                        <span class="text-secondary">Eligible for free shipping</span>
+                                        <br>
+                                        <input type="checkbox" name="" id="" > This will be a gift Learn more
+                                        <br>
+                                        <span><b>Colour:</b>Black</span>
+                                        <br>
+                                        <select class=" rounded shadow" name="" id="qty" style="background-color: lightgray;" onchange="getprice()">
+                                            <option value="1">Qty:1</option>
+                                            <option value="2">Qty:2</option>
+                                            <option value="3">Qty:3</option>
+                                            <option value="4">Qty:4</option>
+                                            <option value="5">Qty:5</option>
+                                        </select>
+                                        <span>| Delete | Save for Later | See more like this | Share</span>
+                                    </p>
+                                </div>
+                                <div class="col-sm-2 ">
+                                    <b class="me-auto ">&#8377; 1,799.00</b>
+                                </div>
+                                <hr>
+                                <p class="text-end">Subtotal(1items):&#8377; <span ><b id="pp">1799</b></span></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card my-3 p-4 rounded-0" style="min-height: 93.5%;">
+                              <div class="row">
+                                <div class="col-sm-12">
+                                  <p>Your order is eligible for FREE Delivery. Select this option at checkout. Details</p>
+                                  <p class="">Subtotal(1items): <span ><b id="tp">1799</b></span></p>
+                                  <input type="checkbox" name="" id=""> This order contain a gift
+                                  <br>
+                                  <button class="btn btn-warning form-control mt-3">Proceed to Buy</button>
+                                  <br>
+                                  <button class="btn btn-outline-dark form-control rounded-0 mt-5">EMI Available</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main end -->
+    </div>
+    <!-- container end -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

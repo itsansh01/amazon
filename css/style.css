@@ -1,0 +1,31 @@
+.head{
+    background-color: black !important;
+}
+.search{
+    background-color: ;
+    width: ;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#select{
+    background-color: lightgray;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+}
+#searchinput{
+    height: 30px;
+    width: 400px;
+}
+.iconsearch{
+    margin: ;
+    border: 1px solid #FEBD69;
+    padding: 6px;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: ;
+    background-color: #FEBD69;
+}
+#EN{
+    background-color: black;
+    color: white;
+    border: none;
+}
